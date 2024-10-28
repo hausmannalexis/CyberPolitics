@@ -5,34 +5,38 @@ html {
 }
 
 body {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   font-family: 'Brush Script MT', cursive;
 }
 
 header {
   color: red;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
 }
 
 header h1 {
   font-size: 30pt;
-  margin-bottom: 0; /* Remove bottom margin */
-  line-height: 1; /* Adjust line height to remove extra space */
+  margin-bottom: 0;
+  line-height: 1;
 }
 
 header h2 {
   font-size: 30pt;
   color: black;
-  margin-top: 0; /* Remove top margin */
-  line-height: 1; /* Adjust line height to remove extra space */
+  margin-top: 0;
+  line-height: 1;
 }
 
 nav {
+  font-family: 'Orbitron', sans-serif;
   background: black;
   color: white;
   padding: 7px;
   margin-bottom: 2rem;
-  font-weight: bold; /* Corrected from font-style: bold */
+  font-weight: bold;
+  text-align: center; /* Center the nav content */
 }
 
 nav ul {
@@ -40,14 +44,22 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
+  justify-content: center; /* Center the nav items */
 }
 
 nav ul li {
-  margin-right: 20px;
+  margin: 0 10px; /* Equal margin on both sides for spacing */
 }
 
-nav ul li:last-child {
-  margin-right: 0;
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+main h2 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  font-size: 30pt;
 }
 
 .stories-container {
@@ -64,19 +76,26 @@ nav ul li:last-child {
 }
 
 button {
-  font-family: 'Brush Script MT', cursive; /* Match the website font */
+  font-family: 'Brush Script MT', cursive;
   background-color: white;
   color: black;
-  border: 2px dashed black; /* Match the dashed outline of story boxes */
+  border: 2px dashed black;
   padding: 10px 20px;
-  font-size: 18pt; /* Adjust as needed */
+  font-size: 18pt;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
+button:hover {
+  background-color: black;
+  color: white;
+}
+
 footer {
+  font-family: 'Orbitron', sans-serif;
   background: black;
   color: white;
   padding: 7px;
   margin-top: 1rem;
+  text-align: center; /* Center the footer content */
 }
