@@ -1,0 +1,64 @@
+html {
+  background-color: white;
+  scroll-behavior: smooth;
+  color: black;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Brush Script MT', cursive;
+}
+
+header {
+  color: red;
+}
+
+header h1 {
+  font-size: 30pt;
+  margin-bottom: 0; /* Remove bottom margin */
+  line-height: 1; /* Adjust line height to remove extra space */
+}
+
+header h2 {
+  font-size: 30pt;
+  color: black;
+  margin-top: 0; /* Remove top margin */
+  line-height: 1; /* Adjust line height to remove extra space */
+}
+
+nav {
+  background: black;
+  color: white;
+  padding: 7px;
+  margin-bottom: 2rem;
+  font-weight: bold; /* Corrected from font-style: bold */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+.stories-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.RecentStory1, .RecentStory2, .MajorStory1 {
+  outline: 2px dashed black;
+  width: 48%;
+  padding: 10px;
+  box-sizing: border-box;
+}
