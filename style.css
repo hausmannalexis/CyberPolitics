@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  width: 70%;
+  width: 95%;
   margin: 0 auto;
   font-family: 'Brush Script MT', cursive;
 }
@@ -61,4 +61,22 @@ nav ul li:last-child {
   width: 48%;
   padding: 10px;
   box-sizing: border-box;
+}
+
+button {
+  font-family: 'Brush Script MT', cursive; /* Match the website font */
+  background-color: white;
+  color: black;
+  border: 2px dashed black; /* Match the dashed outline of story boxes */
+  padding: 10px 20px;
+  font-size: 18pt; /* Adjust as needed */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 7px;
+  margin-top: 1rem;
 }
