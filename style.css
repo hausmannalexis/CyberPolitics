@@ -80,7 +80,7 @@ html {
     margin: 10px 0;
   }
   
-  .RecentStory1, .RecentStory2, .MajorStory1 {
+  .story {
     outline: 2px dashed black;
     width: 48%;
     padding: 10px;
