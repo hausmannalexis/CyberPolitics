@@ -1,122 +1,179 @@
-
 html {
-    background-color: white;
-    scroll-behavior: smooth;
-    color: black;
-  }
-  
-  body {
+  background-color: #f6f7f8;
+  scroll-behavior: smooth;
+  color: black;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Iceland', regular;
+}
+
+header {
+  background-color: #f6f7f8;
+  font-family: 'Iceland', regular;
+  padding-left: 15%;
+}
+
+header h1 a {
+  color: #f6f7f8;
+  font-size: 120pt;
+  margin-bottom: 0;
+  line-height: 1;
+  text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+nav {
+  font-family: 'Iceland', regular;
+  color: black;
+  position: fixed;
+  right: 3%;
+  top: 0%;
+  height: 100vh;
+  width: 15%;
+  background-color: #f6f7f8;
+  z-index: 1000;
+}
+
+.navtitle {
+  padding-top: 20%;
+}
+
+.navtitle a {
+  font-size: 36pt;
+  color: white;
+  text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+nav ul li {
+  font-family: 'Iceland', regular;
+  margin: 10px auto;
+  font-size: 30pt;
+}
+
+nav ul li:first-child {
+  margin-top: 70%;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 30pt;
+}
+
+nav ul li:first-child a {
+  margin-top: 20%;
+}
+
+main {
+  width: 65%;
+  margin: 0 auto;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main h2 {
+  font-family: 'Iceland', regular;
+  text-align: center;
+  font-size: 30pt;
+}
+main h3 {
+  font-size: 26pt;
+}
+
+.stories-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.story {
+  width: 48%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+footer {
+  font-family: 'Iceland', regular;
+  color: black;
+  padding: 7px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+footer a {
+  font-size: 16pt;
+  text-decoration: none;
+  color: black;
+}
+
+.read-more {
+  color: black;
+  font-size: 16pt;
+}
+
+/* Removed hr styles as they're no longer needed */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  nav {
+    position: static;
     width: 100%;
-    margin: 0 auto;
-    font-family: 'Iceland', regular;
+    height: auto;
   }
-  
+
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  main {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   header {
-    color: red;
-    text-align: center;
-    font-family: 'Iceland', regular;
+    padding-left: 5%;
   }
-  
-  header h1 {
-    font-size: 60pt;
-    margin-bottom: 0;
-    line-height: 1;
+
+  header h1 a {
+    font-size: 80pt;
   }
-  
-  header h2 {
-    font-size: 40pt;
-    color: black;
-    margin-top: 0;
-    line-height: 1;
+
+  .story {
+    width: 100%;
     margin-bottom: 20px;
   }
-  
-  hr {
-    width: 45%;
-    border: 1px solid red;
-  }
-  
-  nav {
-    font-family: 'Iceland', regular;
-    color: black;
-    padding: 7px;
-    margin-bottom: 2rem;
-    font-weight: bold;
-    text-align: center; /* Center the nav content */
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center; /* Center the nav items */
-  }
-  
-  nav ul a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  nav ul li {
-    margin: 0 10px; /* Equal margin on both sides for spacing */
-    font-size: 20pt;
-  }
-  
-  main {
-    width: 70%;
-    margin: 0 auto;
-  }
-  
-  main h2 {
-    font-family: 'Iceland', regular;
-    text-align: center;
-    font-size: 30pt;
-  }
-  
+
   .stories-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
+    flex-direction: column;
   }
-  
-  .story {
-    outline: 2px dashed black;
-    width: 48%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  button {
-    font-family: 'Iceland', regular;
-    background-color: white;
-    color: black;
-    border: 2px dashed black;
-    padding: 10px 20px;
-    font-size: 18pt;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: black;
-    color: white;
-  }
-  
-  footer {
-    font-family: 'Iceland', regular;
-    color: black;
-    padding: 7px;
-    margin-top: 1rem;
-    text-align: center; /* Center the footer content */
-  }
-  
-  footer a {
-    color: red;
-    font-size: 16pt;
-  }
-  
-  .read-more {
-    color: black;
-    font-size: 16pt;
-  }
+}
