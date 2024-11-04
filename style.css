@@ -1,3 +1,4 @@
+
 html {
   background-color: #FFD372;
   scroll-behavior: smooth;
@@ -76,7 +77,12 @@ nav ul a {
   display: block;
   width: 100%;
   text-align: left;
-  font-size: 200%;
+  font-size: 300%;
+  text-shadow: 
+        -1px -1px 0 white,  
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
 }
 
 main {
@@ -130,6 +136,80 @@ footer a {
 .read-more {
   color: #2C3D73;
   font-size: 16pt;
+}
+
+.newsletter-signup {
+  background-color: #F49CC4;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.newsletter-signup h2 {
+  color: #2C3D73;
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+
+.newsletter-signup form {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-signup input[type="email"] {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 16pt;
+  padding: 10px;
+  border: 2px solid #2C3D73;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #FFD372;
+  color: #2C3D73;
+  flex-grow: 1;
+}
+
+.newsletter-signup button {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 16pt;
+  padding: 10px 20px;
+  background-color: #F15B42;
+  color: white;
+  border: 2px solid #2C3D73;
+  border-radius: 5px 5px 5px 5px; /* Rounded right corners only */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+}
+
+.newsletter-signup button:hover {
+  background-color: #2C3D73;
+}
+
+@media screen and (max-width: 768px) {
+  .newsletter-signup form {
+    flex-direction: column;
+  }
+
+  .newsletter-signup input[type="email"],
+  .newsletter-signup button {
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px; /* Restore full rounded corners on mobile */
+  }
+
+  .newsletter-signup input[type="email"] {
+    border-bottom: 2px solid #2C3D73; /* Restore bottom border on mobile */
+  }
+
+  .newsletter-signup button {
+    border-left: 2px solid #2C3D73; /* Restore left border on mobile */
+  }
 }
 
 /* Media query for responsiveness */
