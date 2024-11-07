@@ -1,27 +1,26 @@
 
 html {
-  background-color: #FFD372;
+  background-color: #dbdbdb;
   scroll-behavior: smooth;
-  color: #2C3D73;
+  color: #000000;
 }
 
 body {
   margin: 0 auto;
-  font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Poiret One', sans-serif;
 }
 
 header {
-  background-color: #FFD372;
+  background-color: #dbdbdb;
   padding-left: 15%;
 }
 
 header h1 a {
-  color: #F49CC4;
-  font-family: "Pixelify Sans", sans-serif;
-  font-weight: 400;
+  color: #666666;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 700;
   font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 80pt;
+  font-size: 120pt;
   margin-bottom: 0;
   line-height: 1;
   text-shadow: 
@@ -45,14 +44,14 @@ header h1 a {
 }
 
 nav {
-  font-family: 'Pixelify Sans', sans-serif;
-  color: #2C3D73;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 700;
   position: fixed;
   right: 3%;
   top: 22%;
   height: 100vh;
   width: 15%;
-  background-color: #FFD372;
+  background-color: #dbdbdb;
   z-index: 1000;
   padding-top: 20px;
 }
@@ -72,17 +71,11 @@ nav ul li {
 
 nav ul a {
   text-decoration: none;
-  font-weight: bold;
-  color: #F15B42;
+  color: black;
   display: block;
   width: 100%;
   text-align: left;
-  font-size: 300%;
-  text-shadow: 
-        -1px -1px 0 white,  
-        1px -1px 0 white,
-        -1px 1px 0 white,
-        1px 1px 0 white;
+  font-size: 64pt;
 }
 
 main {
@@ -95,10 +88,11 @@ main {
 img {
   width: 100%;
   height: auto;
+  border: 4px solid black;
 }
 
 main h2 {
-  font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   text-align: center;
   font-size: 30pt;
 }
@@ -120,8 +114,8 @@ main h3 {
 }
 
 footer {
-  font-family: 'Pixelify Sans', sans-serif;
-  color: #7CAADC;
+  font-family: 'Poiret One', sans-serif;
+  color: #000000;
   padding: 7px;
   margin-top: 1rem;
   text-align: center;
@@ -130,16 +124,15 @@ footer {
 footer a {
   font-size: 16pt;
   text-decoration: none;
-  color: #7CAADC;
+  color: #000000;
 }
 
 .read-more {
-  color: #2C3D73;
+  color: #000000;
   font-size: 16pt;
 }
 
 .newsletter-signup {
-  background-color: #F49CC4;
   padding: 20px;
   border-radius: 10px;
   margin: 40px 0;
@@ -147,7 +140,7 @@ footer a {
 }
 
 .newsletter-signup h2 {
-  color: #2C3D73;
+  color: #000000;
   font-size: 24pt;
   margin-bottom: 15px;
 }
@@ -162,33 +155,34 @@ footer a {
 }
 
 .newsletter-signup input[type="email"] {
-  font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   font-size: 16pt;
   padding: 10px;
-  border: 2px solid #2C3D73;
+  border: 2px solid #000000;
   border-radius: 5px 5px 5px 5px;
   margin-bottom: 10px;
   width: 100%;
-  background-color: #FFD372;
-  color: #2C3D73;
+  background-color: #dbdbdb;
+  color: #000000;
   flex-grow: 1;
 }
 
 .newsletter-signup button {
-  font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   font-size: 16pt;
   padding: 10px 20px;
-  background-color: #F15B42;
+  background-color: #000000;
   color: white;
-  border: 2px solid #2C3D73;
-  border-radius: 5px 5px 5px 5px; /* Rounded right corners only */
+  border: 2px solid #000000;
+  border-radius: 5px 5px 5px 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   flex-shrink: 0;
 }
 
 .newsletter-signup button:hover {
-  background-color: #2C3D73;
+  background-color: white;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -200,19 +194,18 @@ footer a {
   .newsletter-signup button {
     width: 100%;
     margin: 5px 0;
-    border-radius: 5px; /* Restore full rounded corners on mobile */
+    border-radius: 5px;
   }
 
   .newsletter-signup input[type="email"] {
-    border-bottom: 2px solid #2C3D73; /* Restore bottom border on mobile */
+    border-bottom: 2px solid #2C3D73;
   }
 
   .newsletter-signup button {
-    border-left: 2px solid #2C3D73; /* Restore left border on mobile */
+    border-left: 2px solid #2C3D73;
   }
 }
 
-/* Media query for responsiveness */
 @media screen and (max-width: 768px) {
   nav {
     position: static;
