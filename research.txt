@@ -10,7 +10,7 @@ https://missiledefenseadvocacy.org/missile-threat-and-proliferation/todays-missi
 -Missile Boats
 -Small Submarines
 -S-300 from Russia
--Anti Air Bavar-373
+-Anti Air Bavar-373 (Built due to restrictions on import of S-300 from RU)
 https://militarywatchmagazine.com/article/iran-next-generation-bavar-373-threat
 -Manpower 587'000 (Armed Forces, Paramilitary and IRGC)
 -Electronic Warfare Technology --> Murmansk-BN
@@ -29,6 +29,11 @@ Military Installations
 
 Domestic Production
 
+-1973 Shah founded Iran Electronics Industries IEI (Assemble & Repair Foreign Equipment)
+-1977 Iranian Defense Industry Organization DIO (Missiles w/ Israel as part of Project Flower & Reverse Engineering Soviet Missiles Soviet RPG-7, BM21, and SA-7 missiles)
+-After Iran-Iraq War IRGC rebuilt Military Industry w/ Ministry of Defense
+-1993 Start of production of tanks, apcs, missiles, submarines & fighter planes
+
 -2021 1x Alvand Destroyer, 4x Martoob a-Sabehat 15 Type Submarine & 110 combat speedboats
 -Claims 97% of needs are domestically produced
 -Produce tanks, missiles, drones, submarines and fighter planes
@@ -43,6 +48,7 @@ Arms Imports
 
 Arms Exports (2000 and on)
 
+- 2007 Syria. Sudan % North Korea
 -Claims exports in 2022 have trippled
 
 War Economy
