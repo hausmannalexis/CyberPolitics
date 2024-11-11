@@ -22,7 +22,7 @@ Military Installations
 -TAB 1 Mehrabad International Airport 35°41'01"N 51°18'49"E
 -Tab 2 Tabriz Air Base 38°07'38"N 46°15'22"E
 -Tab 3 Hamadan Airbase
--Tab 8 Isfahan International Airport
+-Tab 8 Isfahan International Airport 32°34'08"N 51°41'09"E
 -Parchin Military Base (Former Nuclear Weapons Program)
 -Khojir Military Base (Ballistic Missile Program, Tunnel Systems & Missile Production Site)
 
