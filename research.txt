@@ -111,6 +111,9 @@ Role of Universities and similar
 -There's a close relationship between academic institutions and military organizations in Iran, particularly in technology-related fields
 -Iranian universities are involved in state-sponsored research projects related to cybersecurity and offensive cyber capabilities
 -Iran leverages informal networks and hacking communities to identify and recruit talented individuals outside of formal educational structures
+-Iran has 90 universities ranked for their research performance in Cyber Security
+-The Basij, a paramilitary organization, manages what they claim are 120,000 cyberwar volunteers
+-The Basij has created "Cyber Councils" in universities across Iran, which serve as recruitment pools for cyber operations
 
 
 Proxies
