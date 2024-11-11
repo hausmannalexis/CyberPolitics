@@ -1,14 +1,16 @@
 Arms Stockpile
 
--US Central Command --> 2'500 - 3'000 Ballistic Missiles (2020)
+-US Central Command --> 2'500 - 3'000 Ballistic Missiles 2020 (Fateh-110, Shahab-3 & Sejjil)
+https://www.ctvnews.ca/world/a-look-at-the-iranian-made-fateh-110-missiles-1.1267652
 -Anti-Ship Missiles --> Khalij Fars (300km + 8.5m radius)
 -Drones (Strike and Recon)
 -Speedboats --> 110 combat Speedboats added (2021)
 -Missile Boats
 -Small Submarines
 -S-300 from Russia
--Domestic Anti Air Installations?
+-Anti Air Bavar-373
 -Manpower 587'000 (Armed Forces, Paramilitary and IRGC)
+-Electronic Warfare Technology --> Murmansk-BN
 
 Military Installations
 
@@ -23,6 +25,9 @@ Military Installations
 Domestic Production
 
 -2021 1x Alvand Destroyer, 4x Martoob a-Sabehat 15 Type Submarine & 110 combat speedboats
+-Claims 97% of needs are domestically produced
+-Produce tanks, missiles, drones, submarines and fighter planes
+-Domestic Industry includes 3'150 comapnies and 92 universities
 
 Increase Domestic Production
 
@@ -33,6 +38,8 @@ Arms Imports
 
 Arms Exports (2000 and on)
 
+-Claims exports in 2022 have trippled
+
 War Economy
 
 -2023 $10.3 Billion
@@ -41,7 +48,7 @@ War Economy
 
 Assymetric Warfare
 
--Cyber Capabilities
+-Cyber Capabilities (Shield of Velayat's Guardians)
 -Small Boats
 -Drones
 -Missiles
