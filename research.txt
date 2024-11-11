@@ -99,6 +99,19 @@ Developement Assymetric Warfare
 -Creation of Cyber Defense Command under Iranian Armed Forces
 -Involvement of the Basij paramilitary organization in recruiting cyber volunteers.
 
+Role of Universities and similar
+
+-Iran has established specialized cybersecurity programs at several universities
+-The Supreme Council of Cultural Revolution approved the establishment of a "Cyber Defense" discipline in Iranian universities in 2012
+-The Iranian Revolutionary Guard Corps (IRGC) has been known to recruit talented students from top universities, particularly those with computer science and engineering backgrounds
+-Iran has established dedicated cyber training centers, though details about their operations are limited
+-These centers likely provide specialized training in hacking, network defense, and other cyber skills
+-The Basij, a paramilitary volunteer militia, has created "Cyber Councils" in universities across Iran
+-These councils serve as a recruitment pool for cyber operations and help identify talented individuals
+-There's a close relationship between academic institutions and military organizations in Iran, particularly in technology-related fields
+-Iranian universities are involved in state-sponsored research projects related to cybersecurity and offensive cyber capabilities
+-Iran leverages informal networks and hacking communities to identify and recruit talented individuals outside of formal educational structures
+
 
 Proxies
 
