@@ -1,3 +1,25 @@
+Arms Stockpile
+
+-US Central Command --> 2'500 - 3'000 Ballistic Missiles (2020)
+-Anti-Ship Missiles --> Khalij Fars (300km + 8.5m radius)
+-Drones (Strike and Recon)
+-Speedboats --> 110 combat Speedboats added (2021)
+-Missile Boats
+-Small Submarines
+-S-300 from Russia
+-Domestic Anti Air Installations?
+-Manpower 587'000 (Armed Forces, Paramilitary and IRGC)
+
+Military Installations
+
+-TAB 1 Mehrabad International Airport
+-Tab 2 Tabriz Air Base
+-Tab 3 Hamadan Airbase
+-Tab 8 Isfahan International Airport
+-Parchin Military Base (Former Nuclear Weapons Program)
+-Lhojir Military Base (Ballistic Missile Program)
+
+
 Domestic Production
 
 Increase Domestic Production
@@ -10,5 +32,13 @@ General Economy
 
 Assymetric Warfare
 
+-Cyber Capabilities
+
 Developement Assymetric Warfare
 
+Proxies
+
+-Hesbollah
+-Hamas
+-Huthis
+-Iraq?
