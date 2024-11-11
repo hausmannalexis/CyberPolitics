@@ -94,6 +94,11 @@ Developement Assymetric Warfare
 -2009 Iran launches its fist satellite Omid
 -2009 Iran starts hacking attacks against their own populace after the Green Revolution post-election
 -2011 Iran starts a Cyber Attack on the US Banking Sector (DNS Attacks and Website Defacements as "Iranian Cyber Army")
+-2012 Iran creates the Supreme Council of Cyberspace --> IRGC
+-2016 Iran improves Cyber Capabilities, now includes cyber espionage, sabotage, and influence operations
+-Creation of Cyber Defense Command under Iranian Armed Forces
+-Involvement of the Basij paramilitary organization in recruiting cyber volunteers.
+
 
 Proxies
 
