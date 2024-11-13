@@ -116,7 +116,7 @@ Reverse Engineering
 -Due to International Sanctions/Arms Embargoes
 -Equipment allegedly reverse engineered:
     -Toophan Anti Tank Guided Missile (4.5km) --> BMG-71 TOW
-    -Saegeh (Saegeh-1 = 10km, Saegeh-2 = 450km) --> RQ-170 Sentinel Drone
+    -Saegeh (Saegeh-1 = 10km, Saegeh-2 = 450km + 50kg) --> RQ-170 Sentinel Drone
     -Sadid 365 Anti Tank Guided Missile (8km, top attack mode, tandem war head) --> US Javelin
     -Almas Missiles (Almas 1 = 4km, Almas 2 & 3 = ?, top attack mode, tandem war head) --> Israeli Spike Missile
 - Russia sending Equipment to Iran for reverse engineering
