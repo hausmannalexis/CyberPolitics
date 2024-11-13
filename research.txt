@@ -111,6 +111,15 @@ Role of Universities and similar
 -The Basij, a paramilitary organization, manages what they claim are 120,000 cyberwar volunteers
 -The Basij has created "Cyber Councils" in universities across Iran, which serve as recruitment pools for cyber operations
 
+Reverse Engineering
+
+-Due to International Sanctions/Arms Embargoes
+-Equipment allegedly reverse engineered:
+    -Toophan Anti Tank Guided Missile --> BMG-71 TOW
+    -Saegeh --> RQ-170 Sentinel Drone
+    -Sadid 365 Anti Tank Guided Missiles --> Javelin
+    -Almas Missiles --> Israeli Spike Missile
+- Russia sending Equipment to Iran for reverse engineering
 
 Proxies
 
