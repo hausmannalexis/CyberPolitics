@@ -10,4 +10,10 @@ Pre-War Ukrainian & Russian Cyber War
 2022 Feb DDOS Attack targets government departments, banks and it companies
 2022 Feb Malware Attack HermeticWiper
 
+Categories of Russian Hacking Groups
+1. Direct Government Control
+2. State Sponsorship
+3. Symbiotic Relationships
+4. Plausible Deniability
+
 https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Vwwd
