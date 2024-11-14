@@ -1,0 +1,13 @@
+Pre-War Ukrainian & Russian Cyber War
+
+2014 Elections System Attack --> CyberBerkut APT
+2015 BlackEnergy Campaign --> Sandworm APT
+2015-2016 Powergrid Attacks --> Sandworm APT (Seashell Blizzard)
+2017 NotPetya Attack 
+2018 Government & Military Attacks --> Carbanak APT
+2021 Intensified Reconaissance --> Nobelium (Russian Foreign Intelligence FSB/GRU) 
+2022 Jan 13 Malware Attack on Ukr Government, IT and non-profit (70 Websites breached -> Cabinet of Ministers, Ministries of Defense, Foreign Affairs, Education and Science)
+2022 Feb DDOS Attack targets government departments, banks and it companies
+2022 Feb Malware Attack HermeticWiper
+
+https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Vwwd
