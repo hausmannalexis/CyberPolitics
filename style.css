@@ -1,34 +1,38 @@
-
 html {
-  background-color: #dbdbdb;
+  background-color: #ffffff;
   scroll-behavior: smooth;
   color: #000000;
 }
 
 body {
   margin: 0 auto;
-  font-family: 'Poiret One', sans-serif;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 header {
-  background-color: #dbdbdb;
+  background-color: #ffffff;
   padding-left: 15%;
 }
 
 header h1 a {
-  color: #666666;
-  font-family: "Poiret One", sans-serif;
+  color: #000000;
+  font-family: "IBM Plex Serif", serif;
   font-weight: 700;
+  font-style: normal;
   font-optical-sizing: auto;
-  font-size: 120pt;
-  margin-bottom: 0;
-  line-height: 1;
-  text-shadow: 
-        -3px -3px 0 white,  
-        3px -3px 0 white,
-        -3px 3px 0 white,
-        3px 3px 0 white;
+  font-size: 32pt;
   text-decoration: none;
+}
+
+header h2 {
+  color: black;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14pt;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -44,14 +48,15 @@ header h1 a {
 }
 
 nav {
-  font-family: 'Poiret One', sans-serif;
+  font-family: "IBM Plex Serif", serif;
   font-weight: 700;
+  font-style: normal;
   position: fixed;
   right: 3%;
-  top: 22%;
+  top: 14%;
   height: 100vh;
-  width: 15%;
-  background-color: #dbdbdb;
+  width: 10%;
+  background-color: #ffffff;
   z-index: 1000;
   padding-top: 20px;
 }
@@ -71,54 +76,106 @@ nav ul li {
 
 nav ul a {
   text-decoration: none;
-  color: black;
+  color: #000000;
   display: block;
   width: 100%;
+  font-weight: 400;
   text-align: left;
-  font-size: 64pt;
+  font-size: 30pt;
 }
 
 main {
   width: 65%;
-  margin: 0 auto;
-  margin-left: 15%;
-  margin-right: 5%;
+  margin: auto;
 }
 
 img {
-  width: 100%;
+  width: auto;
   height: auto;
-  border: 4px solid black;
+  max-width: 30%;
+  border: 4px solid #000000;
+  margin-right: 20px;
 }
 
 main h2 {
-  font-family: 'Poiret One', sans-serif;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
   font-size: 30pt;
 }
 
 main h3 {
-  font-size: 26pt;
+  font-size: 24pt;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .stories-container {
   display: flex;
-  justify-content: space-between;
-  margin: 40px 0;
+  flex-direction: column;
+  margin: 20px 0;
 }
 
 .story {
-  width: 48%;
-  padding: 10px;
+  width: 100%;
+  padding: 20px 0;
   box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid black;
 }
 
+.story:last-child {
+  border-bottom: none;
+}
+
+.story img {
+  width: 30%;
+  height: auto;
+  border: 4px solid #000000;
+  margin-right: 20px;
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.story h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 24pt;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.story p {
+  margin-top: 0;
+}
+
+.read-more {
+  color: #000000;
+  font-size: 24pt;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
 footer {
-  font-family: 'Poiret One', sans-serif;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
   color: #000000;
   padding: 7px;
   margin-top: 1rem;
   text-align: center;
+  width: 95%;
 }
 
 footer a {
@@ -148,105 +205,42 @@ footer a {
 .newsletter-signup form {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
   flex-wrap: wrap;
   max-width: 500px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .newsletter-signup input[type="email"] {
-  font-family: 'Poiret One', sans-serif;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 16pt;
   padding: 10px;
-  border: 2px solid #000000;
-  border-radius: 5px 5px 5px 5px;
+  border: 2px solid black;
+  border-radius: 5px;
   margin-bottom: 10px;
   width: 100%;
-  background-color: #dbdbdb;
+  background-color: #ffffff;
   color: #000000;
-  flex-grow: 1;
 }
 
 .newsletter-signup button {
-  font-family: 'Poiret One', sans-serif;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 16pt;
   padding: 10px 20px;
-  background-color: #000000;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
   border: 2px solid #000000;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   flex-shrink: 0;
 }
 
 .newsletter-signup button:hover {
-  background-color: white;
-  color: black;
-}
-
-@media screen and (max-width: 768px) {
-  .newsletter-signup form {
-    flex-direction: column;
-  }
-
-  .newsletter-signup input[type="email"],
-  .newsletter-signup button {
-    width: 100%;
-    margin: 5px 0;
-    border-radius: 5px;
-  }
-
-  .newsletter-signup input[type="email"] {
-    border-bottom: 2px solid #2C3D73;
-  }
-
-  .newsletter-signup button {
-    border-left: 2px solid #2C3D73;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  nav {
-    position: static;
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-  }
-
-  nav ul {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  nav ul li {
-    margin: 0 5px;
-  }
-
-  nav ul a {
-    font-size: 5pt;
-  }
-
-  main {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  header {
-    padding-left: 5%;
-  }
-
-  header h1 a {
-    font-size: 40pt;
-  }
-
-  .story {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .stories-container {
-    flex-direction: column;
-  }
+  background-color: #ffffff;
+  color: #000000;
 }
