@@ -12,8 +12,16 @@ Pre-War Ukrainian & Russian Cyber War
 
 Categories of Russian Hacking Groups
 1. Direct Government Control
+  Fancy Bear
+  Berserk Bear Military Unit 71330 (FSB)
+  Cozy Bear APT29 (SVD)
+  Fancy Bear aka GTsSS APT28 Military Unit 26165 (GRU, 85th Main Special Service Center)
+  Vodoo Bear aka GTsST Military Unit 74455 (GRU’s Main Center of Special Technologies)
+  TsNIIKhM (Russian Ministry of Defense, Central Scientific Institute of Chemistry and Mechanics)
 2. State Sponsorship
 3. Symbiotic Relationships
 4. Plausible Deniability
+
+Dmitry Artimovich (Recruited by the FSB)
 
 https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Vwwd
