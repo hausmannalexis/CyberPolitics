@@ -141,6 +141,7 @@ p {
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-weight: 400;
 }
 
 .table {
@@ -150,6 +151,11 @@ p {
   font-size: 16pt;
   display: flex inline;
   flex-direction: column;
+  align-content: center;
+}
+
+.table a {
+  text-align: center;
 }
 
 .stories-container {
